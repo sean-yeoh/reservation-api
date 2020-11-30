@@ -83,3 +83,9 @@ You can also view reservations by visting the `index` endpoint.
 ```bash
 $ curl http://localhost:3000/api/v1/reservations
 ```
+
+### How To Run Test Suite
+```bash
+$ cd path-to-reservation-api/reservation-api
+$ bundle exec rspec spec/requests/v1/reservations_spec.rb
+```
