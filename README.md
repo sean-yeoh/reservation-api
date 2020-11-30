@@ -2,6 +2,7 @@
 ```bash
 $ git clone git@github.com:sean-yeoh/reservation-api.git
 $ cd reservation-api
+$ bundle install
 $ rails db:setup
 ```
 
