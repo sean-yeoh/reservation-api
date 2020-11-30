@@ -1,0 +1,31 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  guest: one
+  start_date: 2020-11-29
+  end_date: 2020-11-29
+  nnights: 1
+  adults: 1
+  infants: 1
+  children: 1
+  guests: 1
+  status: MyString
+  currency: MyString
+  payout_price_cents: 1
+  security_price_cents: 1
+  total_price_cents: 1
+
+two:
+  guest: two
+  start_date: 2020-11-29
+  end_date: 2020-11-29
+  nnights: 1
+  adults: 1
+  infants: 1
+  children: 1
+  guests: 1
+  status: MyString
+  currency: MyString
+  payout_price_cents: 1
+  security_price_cents: 1
+  total_price_cents: 1
