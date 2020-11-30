@@ -48,7 +48,7 @@ curl -0 -v -X POST http://localhost:3000/api/v1/reservations \
 EOF
 ```
 
-### Service Payload Format 1
+### Service Payload Format 2
 ```bash
 curl -0 -v -X POST http://localhost:3000/api/v1/reservations \
 -H "Expect:" \
@@ -76,4 +76,10 @@ curl -0 -v -X POST http://localhost:3000/api/v1/reservations \
   "total_price": "4500.00"
 }
 EOF
+```
+
+After posting using CURL, ensure a reservation json object is returned with an id.
+You can also view reservations by visting the `index` endpoint.
+```bash
+curl http://localhost:3000/api/v1/reservations
 ```
