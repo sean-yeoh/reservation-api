@@ -14,7 +14,7 @@ $ bundle exec rails server
 
 ### Service Payload Format 1
 ```bash
-curl -0 -v -X POST http://localhost:3000/api/v1/reservations \
+$ curl -0 -v -X POST http://localhost:3000/api/v1/reservations \
 -H "Expect:" \
 -H 'Content-Type: application/json; charset=utf-8' \
 --data-binary @- << EOF
@@ -50,7 +50,7 @@ EOF
 
 ### Service Payload Format 2
 ```bash
-curl -0 -v -X POST http://localhost:3000/api/v1/reservations \
+$ curl -0 -v -X POST http://localhost:3000/api/v1/reservations \
 -H "Expect:" \
 -H 'Content-Type: application/json; charset=utf-8' \
 --data-binary @- << EOF
@@ -81,5 +81,5 @@ EOF
 After posting using CURL, ensure a reservation json object is returned with an id.
 You can also view reservations by visting the `index` endpoint.
 ```bash
-curl http://localhost:3000/api/v1/reservations
+$ curl http://localhost:3000/api/v1/reservations
 ```
