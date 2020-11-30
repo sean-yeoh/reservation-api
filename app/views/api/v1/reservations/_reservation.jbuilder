@@ -7,6 +7,7 @@ json.infants reservation.infants
 json.children reservation.children
 json.guests reservation.guests
 json.currency reservation.currency
+json.status reservation.status
 json.payout_price reservation.payout_price.to_s
 json.security_price reservation.security_price.to_s
 json.total_price reservation.total_price.to_s
