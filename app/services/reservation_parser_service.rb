@@ -21,7 +21,5 @@ class ReservationParserService
     return false unless parser
 
     parser.new(params).parse!
-
-    true
   end
 end
